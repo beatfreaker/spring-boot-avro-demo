@@ -1,0 +1,99 @@
+{
+  "namespace": "avro",
+  "type": "record",
+  "name": "BatteryEvent",
+  "fields": [
+    {
+      "name": "charging_source",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    {
+      "name": "processor4_temp",
+      "type": [
+        "int",
+        "null"
+      ]
+    },
+    {
+      "name": "device_id",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    {
+      "name": "processor2_temp",
+      "type": [
+        "int",
+        "null"
+      ]
+    },
+    {
+      "name": "processor1_temp",
+      "type": [
+        "int",
+        "null"
+      ]
+    },
+    {
+      "name": "charging",
+      "type": [
+        "int",
+        "null"
+      ]
+    },
+    {
+      "name": "current_capacity",
+      "type": [
+        "int",
+        "null"
+      ]
+    },
+    {
+      "name": "inverter_state",
+      "type": [
+        "int",
+        "null"
+      ]
+    },
+    {
+      "name": "moduleL_temp",
+      "type": [
+        "int",
+        "null"
+      ]
+    },
+    {
+      "name": "moduleR_temp",
+      "type": [
+        "int",
+        "null"
+      ]
+    },
+    {
+      "name": "processor3_temp",
+      "type": [
+        "int",
+        "null"
+      ]
+    },
+    {
+      "name": "soC_regulator",
+      "type": [
+        "float",
+        "null"
+      ]
+    },
+    {
+      "name": "time",
+      "type": [
+        "long",
+        "null"
+      ],
+      "logicalType": "local-timestamp-millis"
+    }
+  ]
+}
